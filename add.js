@@ -4,22 +4,22 @@ const sayOnlyTruth = (str) =>
 const ceoTranslate = (str) => 
     str.replace(/(ibm)|(IBM)/g, 'company in the past')
 
-const subsets = (a, b) => {
-    a.master.firstname = 'Tom'
-    return { result: `${a.master.firstname} ${a.master.lastname}`, t: { a: 3 }}
-}
+// const subsets = (a, b) => {
+//     a.master.firstname = 'Tom'
+//     return { result: `${a.master.firstname} ${a.master.lastname}`, t: { a: 3 }}
+// }
 
 const testejekke = (a) => 1000
 
-const subsetsII = (persons) => {
-    const { master } = persons
-    return `${master.firstname} ${master.lastname}`
-}
+// const subsetsII = (persons) => {
+//     const { master } = persons
+//     return `${master.firstname} ${master.lastname}`
+// }
 
-const subsetsIII = (list) => {
-    // person.firstname = 'Tom'
-    return list.join(', ')
-}
+// const subsetsIII = (list) => {
+//     // person.firstname = 'Tom'
+//     return list.join(', ')
+// }
 
 const a = (a) => {
     return a * 2
